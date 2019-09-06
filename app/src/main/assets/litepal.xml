@@ -4,7 +4,7 @@
     <!--
     定义应用程序的数据库名称。默认情况下，每个数据库名称应以.db结尾。
     如果您没有使用.db命名数据库端，LitePal会自动为您添加后缀。-->
-    <dbname value="cool_weather"></dbname>
+    <dbname value="weather"></dbname>
 
     <!--
     定义数据库的版本。每次要升级数据库时，版本标记都会有所帮助。
@@ -17,9 +17,9 @@
     <storage value =“external”/>-->
 
     <list>
-        <mapping class="com.example.coolweather.db.Province" />
-        <mapping class="com.example.coolweather.db.City" />
-        <mapping class="com.example.coolweather.db.County" />
+        <mapping class="com.example.weather.db.Province" />
+        <mapping class="com.example.weather.db.City" />
+        <mapping class="com.example.weather.db.County" />
 
     </list>
 
